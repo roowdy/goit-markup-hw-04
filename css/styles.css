@@ -91,12 +91,14 @@ img {
 
 .contact-icon {
   margin-right: 10px;
-  fill: #757575;
 }
 
 .contact-icon:hover,
-.contact-us:hover {
+.contact-icon:focus,
+.contact-us:hover,
+.contact-us:focus {
   fill: #2196f3;
+  color: #2196f3;
 }
 
 .contacts-list {
@@ -104,6 +106,7 @@ img {
 }
 
 .contact-us {
+  fill: #757575;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
@@ -112,11 +115,6 @@ img {
   margin-left: 50px;
   align-items: center;
   display: flex;
-}
-
-.contact-us:hover,
-.contact-us:focus {
-  color: #2196f3;
 }
 
 .nav-item {
@@ -241,9 +239,9 @@ img {
 }
 
 /* ---------------TEAM--------------- */
-.team-social-networks {
+/* .team-social-networks {
   background-size: cover;
-}
+} */
 
 /* .team-social-networks:hover {
   fill: #ffffff;
@@ -270,7 +268,8 @@ img {
   align-items: center;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   fill: #ffffff;
   background-color: #2196f3;
   border-radius: 50%;
@@ -323,6 +322,42 @@ img {
   padding-bottom: 30px;
 }
 
+/* -------------Clients-------------- */
+.clients-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.clients-link {
+  display: flex;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: #2196f3;
+  border-color: #2196f3 ;
+}
+
+.clients-list {
+  display: flex;
+}
+
+
+
 /* --------------FOOTER---------------- */
 .footer {
   background-color: #2f303a;
@@ -358,6 +393,53 @@ img {
 .contacts-mail,
 .contacts-tel {
   margin-top: 9px;
+}
+
+.footer-container {
+  display: flex;
+  
+}
+
+.footer-address {
+  margin-right: 70px;
+}
+.footer-link{
+  margin-top: 12px;
+}
+
+.footer-link-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.footer-links-list{
+  display: flex;
+}
+
+.footer-links-list-item {
+  margin-right: 10px;
+}
+
+.footer-social-network-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #fff;
+  background-color: #44454E;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.footer-social-network-link:hover,
+.footer-social-network-link:focus {
+  background-color: #2196f3;
 }
 
 /* -------------PORTFOLIO---------------- */
