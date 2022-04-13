@@ -37,9 +37,6 @@ img {
   display: block;
 }
 
-.icon {
-  
-}
 
 /*----------- HEADER ------------*/
 .header {
@@ -98,7 +95,7 @@ img {
 }
 
 .contact-icon:hover,
-.contact-us:hover{
+.contact-us:hover {
   fill: #2196f3;
 }
 
@@ -244,6 +241,41 @@ img {
 }
 
 /* ---------------TEAM--------------- */
+.team-social-networks {
+  background-size: cover;
+}
+
+/* .team-social-networks:hover {
+  fill: #ffffff;
+  background-color: #2196f3;
+  border-radius: 50%;
+} */
+
+.team-list-social-networks{
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.team-list-social-networks-item {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  fill: #AFB1B8;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+}
+
+.social-link:hover {
+  fill: #ffffff;
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+
 .team {
   background-color: #f5f4fa;
 }
